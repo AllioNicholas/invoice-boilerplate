@@ -105,19 +105,21 @@ $for(to)$
 $to$\\
 $endfor$
 
-\vspace{6em}
+\vspace{2em}
 
 \begin{flushright}
   \small
   $city$, am \today
 \end{flushright}
 
-\vspace{1em}
+\vspace{2em}
 
+$if(openingnote)$
 \sffamily
 \small
 $openingnote$
-\vspace{15mm}
+\vspace{2em}
+$endif$
 
 \section*{\textsc{Honorarnote} \textsc{\#$invoice-nr$}}
 \footnotesize
@@ -143,7 +145,7 @@ $if(commasep)$\STsetdecimalsep{,}$endif$ % Use comma as decimal separator
 \end{spreadtab}
 
 
-\vspace{15mm}
+\vspace{2em}
 
 \sffamily
 \small
